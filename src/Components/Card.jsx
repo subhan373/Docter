@@ -18,15 +18,11 @@ export default function Card() {
           </h1>
 
        
-          <Link
-            to="/signup"
-            className="inline-block px-5 sm:px-6 py-2 sm:py-3 
+     <button className="inline-block px-5 sm:px-6 py-2 sm:py-3 
               bg-white text-[#000000] font-normal rounded-full 
-              shadow-md hover:bg-gray-100 transition mt-5"
-          >
-            Create account →
-          </Link>
-        </div>
+              shadow-md hover:bg-gray-100 transition mt-5"> Create account →
+     </button>
+               </div>
 
       
         <div className="h-full flex flex-col justify-end items-center sm:items-end mt-8 md:mt-0">
