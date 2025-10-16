@@ -19,7 +19,7 @@ const DateSelector = () => {
     "10:00 am",
     "10:30 am",
     "11:00 am",
-    "11:30 am",
+    "12:30 am",
   ];
 
   const [selectedDay, setSelectedDay] = useState(10); 

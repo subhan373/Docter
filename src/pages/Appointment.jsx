@@ -14,7 +14,7 @@ const Appointment = () => {
 
         <div className="w-full lg:w-1/4 bg-[#5F6FFF] flex items-center justify-center rounded-lg shadow-md">
           <img
-            src="/d2.png"
+            src="/d12.png"
             alt="Dr. Richard James"
             className="rounded-lg w-[180px] sm:w-[200px] h-[220px] sm:h-[250px] object-cover"
           />
@@ -23,7 +23,7 @@ const Appointment = () => {
 
         <div className="w-full lg:w-3/4 bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-300">
           <h2 className="text-lg sm:text-xl font-semibold text-gray-900 flex items-center">
-            Dr. Richard James
+            Mark Singh
             <svg
               className="w-4 h-4 text-blue-600 ml-2"
               fill="currentColor"
@@ -57,7 +57,7 @@ const Appointment = () => {
               About
             </div>
             <p className="text-sm text-gray-700">
-              Dr. Davis has a strong commitment to delivering comprehensive
+              Mark Singh  has a strong commitment to delivering comprehensive
               medical care, focusing on preventive medicine, early diagnosis,
               and effective treatment strategies.
             </p>

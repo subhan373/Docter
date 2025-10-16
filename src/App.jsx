@@ -8,15 +8,16 @@ import Contact from "./pages/Contact";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Appointment from "./pages/Appointment";
-import ErrorPage from "./pages/ErrorPage";
+import ErrorPage from "./pages/ErrorPage";    
 import Nav from "./Components/Nav";
+
+
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
 
-  // Check localStorage for logged-in user on mount
-  useEffect(() => {
+   useEffect(() => {
     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
     if (loggedInUser) {
       setLoggedIn(true);
