@@ -12,6 +12,8 @@ const specialties = [
   { name: "Gastroenterologist", path: "/speciality/gastroenterologist", icon: "/g6.svg" },
 ];
 
+
+
 const Find = () => {
   return (
     <div className="text-center pt-25 pb-24 px-[10px] md:mx-[180px]">
