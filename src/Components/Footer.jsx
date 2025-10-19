@@ -5,9 +5,7 @@ const Footer = () => {
     <footer className="bg-white text-gray-700 mt-10">
       <div className="px-4 sm:px-6 md:px-10 lg:mx-[180px] py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
 
-  
 
-  
         <div>
           <div className="flex items-center space-x-3 mb-4">
             <img src="/logo.png" alt="Prescripto Logo" className="w-10 h-10 object-contain" />
