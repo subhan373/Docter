@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-onst specialties = [
+
+
+
+const specialties = [
   { name: "General Physician", path: "/speciality/general-physician", icon: "/g1.svg" },
   { name: "Gynecologist", path: "/speciality/gynecologist", icon: "/g2.svg" },
   { name: "Dermatologist", path: "/speciality/dermatologist", icon: "/g3.svg" },
