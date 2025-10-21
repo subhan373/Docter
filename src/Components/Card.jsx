@@ -7,6 +7,8 @@ export default function Card() {
 
     
 
+
+
       className="bg-[#5F6FFF] text-white mt-5 rounded-2xl 
         mx-4 sm:mx-6 md:mx-10 lg:mx-[180px]"
     >

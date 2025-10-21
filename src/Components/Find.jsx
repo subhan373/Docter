@@ -14,6 +14,8 @@ const specialties = [
 
 
 
+
+
 const Find = () => {
   return (
     <div className="text-center pt-25 pb-24 px-[10px] md:mx-[180px]">
