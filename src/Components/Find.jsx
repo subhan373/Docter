@@ -1,24 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const specialties = [
-  { name: "General Physician", path: "/speciality/general-physician", icon: "/g1.svg" },
+  {
+    name: "General Physician",
+    path: "/speciality/general-physician",
+    icon: "/g1.svg",
+  },
   { name: "Gynecologist", path: "/speciality/gynecologist", icon: "/g2.svg" },
   { name: "Dermatologist", path: "/speciality/dermatologist", icon: "/g3.svg" },
   { name: "Pediatricians", path: "/speciality/pediatricians", icon: "/g4.svg" },
   { name: "Neurologist", path: "/speciality/neurologist", icon: "/g5.svg" },
-  { name: "Gastroenterologist", path: "/speciality/gastroenterologist", icon: "/g6.svg" },
+  {
+    name: "Gastroenterologist",
+    path: "/speciality/gastroenterologist",
+    icon: "/g6.svg",
+  },
 ];
-
-
-
-
-
-
-
-
-
 
 const Find = () => {
   return (
