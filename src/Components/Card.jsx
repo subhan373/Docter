@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export default function Card() {
   return (
  
+    
  
     <section
       className="bg-[#5F6FFF] text-white mt-5 rounded-2xl 
