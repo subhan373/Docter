@@ -3,32 +3,66 @@ import Navbar from "../Components/Nav";
 import Footer from "../Components/Footer";
 import DoctorFil from "../Components/DoctorFil";
 
-
-
-
-
-
-
-
-
-
-
-
 const doctors = [
-  { id: 1, name: "Dr. Richard James", specialty: "General physician", image: "/d2.png" },
-  { id: 2, name: "Dr. Sarah White", specialty: "Cardiologist", image: "/d1.png" },
-  { id: 3, name: "Dr. Alex Green", specialty: "Dermatologist", image: "/d5.png" },
-  { id: 4, name: "Dr. Emily Stone", specialty: "Neurologist", image: "/d3.png" },
-  { id: 5, name: "Dr. Daniel Kim", specialty: "ENT Specialist", image: "/d4.png" },
+  {
+    id: 1,
+    name: "Dr. Richard James",
+    specialty: "General physician",
+    image: "/d2.png",
+  },
+  {
+    id: 2,
+    name: "Dr. Sarah White",
+    specialty: "Cardiologist",
+    image: "/d1.png",
+  },
+  {
+    id: 3,
+    name: "Dr. Alex Green",
+    specialty: "Dermatologist",
+    image: "/d5.png",
+  },
+  {
+    id: 4,
+    name: "Dr. Emily Stone",
+    specialty: "Neurologist",
+    image: "/d3.png",
+  },
+  {
+    id: 5,
+    name: "Dr. Daniel Kim",
+    specialty: "ENT Specialist",
+    image: "/d4.png",
+  },
   { id: 6, name: "Dr. Lisa Ray", specialty: "Orthopedic", image: "/d8.png" },
   { id: 7, name: "Dr. Mark Singh", specialty: "Dentist", image: "/d7.png" },
-  { id: 8, name: "Dr. Olivia Khan", specialty: "Psychiatrist", image: "/d9.png" },
+  {
+    id: 8,
+    name: "Dr. Olivia Khan",
+    specialty: "Psychiatrist",
+    image: "/d9.png",
+  },
   { id: 9, name: "Dr. James Bond", specialty: "Urologist", image: "/d10.png" },
-  { id: 10, name: "Dr. Sophia Lee", specialty: "Gynecologist", image: "/d11.png" },
+  {
+    id: 10,
+    name: "Dr. Sophia Lee",
+    specialty: "Gynecologist",
+    image: "/d11.png",
+  },
   { id: 11, name: "Dr. Mark Singh", specialty: "Dentist", image: "/d12.png" },
-  { id: 12, name: "Dr. Olivia Khan", specialty: "Psychiatrist", image: "/d13.png" },
+  {
+    id: 12,
+    name: "Dr. Olivia Khan",
+    specialty: "Psychiatrist",
+    image: "/d13.png",
+  },
   { id: 13, name: "Dr. James Bond", specialty: "Urologist", image: "/d14.png" },
-  { id: 14, name: "Dr. Sophia Lee", specialty: "Gynecologist", image: "/d15.png" },
+  {
+    id: 14,
+    name: "Dr. Sophia Lee",
+    specialty: "Gynecologist",
+    image: "/d15.png",
+  },
 ];
 
 const AllDoc = () => {
@@ -41,15 +75,11 @@ const AllDoc = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      
-
-     <h3 className="mt-6 font-normal text-[#4B5563] text-center sm:text-left ml-0 sm:ml-45">
-  Browse through the doctors specialist.
-</h3>
-
+      <h3 className="mt-6 font-normal text-[#4B5563] text-center sm:text-left ml-0 sm:ml-45">
+        Browse through the doctors specialist.
+      </h3>
 
       <div className="px-4 sm:px-6 md:px-10 lg:px-[180px] py-5 flex flex-col lg:flex-row gap-6">
-        
         {/* Mobile Filter Button */}
         <div className="lg:hidden mb-4">
           <button
