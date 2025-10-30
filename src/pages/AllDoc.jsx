@@ -3,6 +3,8 @@ import Navbar from "../Components/Nav";
 import Footer from "../Components/Footer";
 import DoctorFil from "../Components/DoctorFil";
 
+
+
 const doctors = [
   { id: 1, name: "Dr. Richard James", specialty: "General physician", image: "/d2.png" },
   { id: 2, name: "Dr. Sarah White", specialty: "Cardiologist", image: "/d1.png" },
