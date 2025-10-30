@@ -2,6 +2,7 @@ import React from "react";
 
 
 
+
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-700 mt-10">
