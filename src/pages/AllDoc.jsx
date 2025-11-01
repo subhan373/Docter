@@ -4,10 +4,12 @@ import Footer from "../Components/Footer";
 import DoctorFil from "../Components/DoctorFil";
 
 
+
+
 const doctors = [
   {
 
-    
+
     id: 1,
     name: "Dr. Richard James",
     specialty: "General physician",
