@@ -1,25 +1,6 @@
 import React from "react";
 import Footer from "../Components/Footer";
-import Navbar from "../Components/Nav";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import Navbar from "../Components/Nav";z
 
 const Contact = () => {
   return (
