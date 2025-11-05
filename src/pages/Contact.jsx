@@ -4,8 +4,6 @@ import Navbar from "../Components/Nav";
 
 
 
-
-
 const Contact = () => {
   return (
     <>
