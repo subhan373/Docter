@@ -3,6 +3,16 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Nav";
 
 
+
+
+
+
+
+
+
+
+
+
 const Contact = () => {
   return (
     <>
