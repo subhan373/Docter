@@ -4,27 +4,6 @@ import Footer from "../Components/Footer";
 import DoctorFil from "../Components/DoctorFil";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const doctors = [
   {
 
